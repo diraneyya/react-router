@@ -8,6 +8,12 @@ const appRoot = ReactDOM.createRoot(rootDOM);
 appRoot.render(
     <ReactRouter>
         <h1>My router app</h1>
+        <nav>
+            <ul>
+                <li><Link to='/hello'>Hello section</Link></li>
+                <li><Link to='/about'>About section</Link></li>
+            </ul>
+        </nav>
 
         <Routes>
 
